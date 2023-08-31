@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 html {
   margin: 0;
 
@@ -8,5 +9,9 @@ html {
 
 /* HEADER */
 .logo {
-  width: 150px;
+  width: 190px;
+}
+
+.navbar {
+  background-color: rgb(109, 106, 106);
 }
