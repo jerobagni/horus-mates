@@ -56,3 +56,21 @@ html {
 .cards {
   text-align: center !important;
 }
+
+/* CAROUSEL */
+
+.imgCarousel {
+  height: 450px;
+  object-fit: cover;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(42, 39, 39);
+  color: white;
+}
+
+.nav-link {
+  color: white !important;
+}
