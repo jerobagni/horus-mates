@@ -13,5 +13,40 @@ html {
 }
 
 .navbar {
-  background-color: rgb(109, 106, 106);
+  background-color: rgb(42, 39, 39);
+}
+
+.menu {
+  color: wheat !important;
+}
+
+/* HERO */
+
+.fondoImg {
+  background-image: url("../img/Yerba-Mate-1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.colorBtn {
+  background-color: rgb(42, 39, 39);
+  font-size: 1, 4px;
+  color: wheat;
+  margin: 5px;
+}
+
+/* PRODUCTOS */
+
+.tituloProductos {
+  background-color: rgb(42, 39, 39);
+  color: wheat;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.tituloProductos h5 {
+  font-size: 15px;
 }
