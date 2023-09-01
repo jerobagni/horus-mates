@@ -51,6 +51,10 @@ html {
   font-size: 15px;
 }
 
+.card-img-top {
+  width: 400px;
+}
+
 /* CARDS */
 
 .cards {
@@ -64,6 +68,9 @@ html {
   object-fit: cover;
 }
 
+.carousel {
+  border: solid rgb(42, 39, 39);
+}
 /* FOOTER */
 
 footer {
