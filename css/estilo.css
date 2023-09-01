@@ -10,6 +10,7 @@ html {
 /* HEADER */
 .logo {
   width: 190px;
+  border-radius: 20%;
 }
 
 .navbar {
