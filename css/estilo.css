@@ -21,6 +21,18 @@ html {
   color: wheat !important;
 }
 
+.search {
+  width: 30px;
+}
+
+.form-control {
+  width: auto;
+}
+
+.navbar-collapse {
+  color: wheat;
+}
+
 /* HERO */
 
 .fondoImg {
@@ -53,7 +65,7 @@ html {
 }
 
 .card-img-top {
-  width: 400px;
+  width: 250px;
 }
 
 /* CARDS */
