@@ -36,6 +36,11 @@ html {
 .rounded-circle {
   width: 150px;
 }
+.navbar-toggler {
+  color: white;
+  border-color: white;
+}
+
 /* HERO */
 
 .fondoImg {
