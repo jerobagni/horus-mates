@@ -33,6 +33,9 @@ html {
   color: wheat;
 }
 
+.rounded-circle {
+  width: 150px;
+}
 /* HERO */
 
 .fondoImg {
