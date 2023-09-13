@@ -76,6 +76,16 @@ html {
   width: 250px;
 }
 
+.stanley {
+  width: 240px;
+}
+
+.fondoProductos {
+  background-color: rgb(42, 39, 39);
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
 /* CARDS */
 
 .cards {
