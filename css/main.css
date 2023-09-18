@@ -187,6 +187,13 @@ p {
   color: white;
 }
 
+.botonInicio {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
 .tituloProductos {
   background-color: rgb(42, 39, 39);
   color: white;
