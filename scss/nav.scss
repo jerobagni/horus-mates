@@ -1,3 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+html {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $mainColor;
+}
+
+//Header
+.logo {
+  width: 150px;
+  border-radius: 20%;
+}
+
+.navbar {
+  background-color: $secondaryColor;
+}
+
+.menu {
+  color: $keyColor !important;
+}
+
+.search {
+  width: 30px;
+}
+
+.form-control {
+  width: auto;
+}
+
+.navbar-collapse {
+  color: $keyColor;
+}
+
+.rounded-circle {
+  width: 150px;
+}
+.navbar-toggler {
+  color: $keyColor;
+  border-color: $keyColor;
+}
+
+//Hero
+.fondoImg {
+  background-image: url("../img/Yerba-Mate-1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid $mainColor;
+}
+
+.colorBtn {
+  background-color: $mainColor;
+  font-size: 1, 4px;
+  color: wheat;
+  margin: 5px;
+}
+
 //Carousel
 .imgCarousel {
   height: 450px;
