@@ -176,6 +176,17 @@ p {
   color: #a8a8a8;
 }
 
+.error {
+  color: white;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+}
+
+.erroru {
+  color: white;
+}
+
 .tituloProductos {
   background-color: rgb(42, 39, 39);
   color: white;
@@ -206,3 +217,5 @@ p {
 .cards {
   text-align: center !important;
 }
+
+/*# sourceMappingURL=main.css.map */

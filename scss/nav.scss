@@ -183,3 +183,16 @@ p {
 ::-webkit-textarea-placeholder {
   color: #a8a8a8;
 }
+
+//Error 404
+
+.error {
+  color: $keyColor;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+}
+
+.erroru {
+  color: $keyColor;
+}
