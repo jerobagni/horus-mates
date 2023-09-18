@@ -1,0 +1,33 @@
+//Productos
+.tituloProductos {
+  background-color: $mainColor;
+  color: $keyColor;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+
+  h5 {
+    font-size: $mainFont;
+  }
+}
+
+.card-img-top {
+  width: 250px;
+}
+
+.stanley {
+  width: 240px;
+}
+
+.fondoProductos {
+  background-color: $secondaryColor;
+  row-gap: $mainFont;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+//Cards
+.cards {
+  text-align: center !important;
+}

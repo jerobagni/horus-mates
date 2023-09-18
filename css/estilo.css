@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-color: rgb(31, 27, 27);
+  background-color: rgb(42, 39, 39);
 }
 
 /* HEADER */
@@ -118,6 +118,10 @@ footer {
   color: white !important;
 }
 
+.text-center {
+  color: white;
+}
+
 /* FORMULARIO DE CONTACTO */
 .contact_form {
   width: 460px;
@@ -137,7 +141,7 @@ input {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: #ab4493;
+  border-color: rgb(31, 27, 27);
   margin-top: 10px;
   padding-left: 10px;
   margin-bottom: 20px;
@@ -150,7 +154,7 @@ textarea {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: #ab4493;
+  border-color: rgb(31, 27, 27);
   margin-top: 10px;
   padding-left: 10px;
   margin-bottom: 20px;
@@ -169,8 +173,8 @@ button {
   margin-bottom: 20px;
   margin-top: 10px;
   text-transform: uppercase;
-  background-color: #ab4493;
-  border-color: #ab4493;
+  background-color: rgb(31, 27, 27);
+  border-color: rgb(31, 27, 27);
   border-style: solid;
   border-radius: 10px;
   width: 420px;
@@ -182,7 +186,7 @@ button p {
 }
 
 span {
-  color: #ab4493;
+  color: rgb(31, 27, 27);
 }
 
 .aviso {
@@ -194,7 +198,7 @@ h1 {
   font-size: 39px;
   text-align: letf;
   padding-bottom: 20px;
-  color: #ab4493;
+  color: rgb(31, 27, 27);
 }
 
 h3 {
@@ -214,14 +218,4 @@ p {
 
 ::-webkit-textarea-placeholder {
   color: #a8a8a8;
-}
-
-.formulario input:focus {
-  outline: 0;
-  border: 1px solid #97d848;
-}
-
-.formulario textarea:focus {
-  outline: 0;
-  border: 1px solid #97d848;
 }

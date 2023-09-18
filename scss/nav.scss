@@ -1,0 +1,122 @@
+//Carousel
+.imgCarousel {
+  height: 450px;
+  object-fit: cover;
+}
+
+.carousel {
+  border: solid $mainColor;
+}
+
+//Footer
+
+footer {
+  background-color: $secondaryColor;
+  color: $keyColor;
+}
+
+.nav-link {
+  color: $keyColor !important;
+}
+
+.text-center {
+  color: $keyColor;
+}
+
+//Formulario de Contacto
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: $secondaryFont;
+  background-color: $keyColor;
+  padding-left: 30px;
+}
+
+input {
+  background-color: $keyColor;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $secondaryColor;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: $secondaryFont;
+}
+
+textarea {
+  background-color: $keyColor;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $secondaryColor;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: $secondaryFont;
+  padding-top: $mainFont;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: $secondaryFont;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: $secondaryColor;
+  border-color: $secondaryColor;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+
+  p {
+    color: $keyColor;
+  }
+}
+
+span {
+  color: $secondaryColor;
+}
+
+.aviso {
+  font-size: $mainFont;
+  color: black;
+}
+
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: $secondaryColor;
+}
+
+h3 {
+  font-size: $mainFont;
+  padding-bottom: 30px;
+  color: black;
+}
+
+p {
+  font-size: $mainFont;
+  color: black;
+}
+
+::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
