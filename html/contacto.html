@@ -17,6 +17,10 @@
       name="description"
       content="Consultanos todas tus dudas a traves de Whatsapp o al mail."
     />
+    <meta
+      name="keywords"
+      content="Formulario, Contacto, Nombre, Mail, Mensaje"
+    />
   </head>
   <body>
     <!-- HEADER -->
@@ -77,88 +81,57 @@
       </div>
     </header>
     <!-- FORMULARIO DE CONTACTO -->
-    <div class="contact_form">
-      <div class="formulario">
-        <h1>Formulario de contacto</h1>
-        <h3 class="">Escríbenos y nos pondremos en contacto contigo</h3>
-
-        <form action="submeter-formulario.php" method="post">
-          <p>
-            <label for="nombre" class="colocar_nombre"
-              >Nombre
-              <span class="obligatorio">*</span>
-            </label>
+    <div class="px-4 py-5 mt-2">
+      <div class="col-md-10 mx-auto col-lg-5">
+        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+          <div class="form-floating mb-3">
             <input
               type="text"
-              name="introducir_nombre"
-              id="nombre"
-              required="obligatorio"
-              placeholder="Escribe tu nombre"
+              class="form-control w-100 btn btn-lg border"
+              id="floatingInput"
             />
-          </p>
-
-          <p>
-            <label for="email" class="colocar_email"
-              >Email
-              <span class="obligatorio">*</span>
-            </label>
+            <label for="floatingInput">Nombre y Apellido</label>
+          </div>
+          <div class="form-floating mb-3">
             <input
-              type="email"
-              name="introducir_email"
-              id="email"
-              required="obligatorio"
-              placeholder="Escribe tu Email"
+              type="password"
+              class="form-control w-100 btn btn-lg border"
+              id="floatingPassword"
             />
-          </p>
-
-          <p>
-            <label for="telefone" class="colocar_telefono">Teléfono </label>
-            <input
-              type="tel"
-              name="introducir_telefono"
-              id="telefono"
-              placeholder="Escribe tu teléfono"
-            />
-          </p>
-          <p>
-            <label for="asunto" class="colocar_asunto"
-              >Asunto
-              <span class="obligatorio">*</span>
-            </label>
+            <label for="floatingInput">Mail</label>
+          </div>
+          <div class="form-floating mb-3">
             <input
               type="text"
-              name="introducir_asunto"
-              id="assunto"
-              required="obligatorio"
-              placeholder="Escribe un asunto"
+              class="form-control w-100 btn btn-lg border"
+              id="floatingInput"
             />
-          </p>
+            <label for="floatingInput">Telefono</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input
+              type="text"
+              class="form-control w-100 btn btn-lg border"
+              id="floatingInput"
+            />
+            <label for="floatingInput">Asunto</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input
+              type="text"
+              class="form-control w-100 btn btn-lg border"
+              id="floatingInput"
+            />
+            <label for="floatingInput">Mensaje</label>
+          </div>
 
-          <p>
-            <label for="mensaje" class="colocar_mensaje"
-              >Mensaje
-              <span class="obligatorio">*</span>
-            </label>
-            <textarea
-              name="introducir_mensaje"
-              class="texto_mensaje"
-              id="mensaje"
-              required="obligatorio"
-              placeholder="Deja aquí tu comentario..."
-            ></textarea>
-          </p>
-
-          <button type="submit" name="enviar_formulario" id="enviar">
-            <a href="../html/error404.html">Enviar</a>
+          <button class="w-100 btn btn-lg colorBtn" type="submit">
+            Enviar
           </button>
-
-          <p class="aviso">
-            <span class="obligatorio"> * </span>los campos son obligatorios.
-          </p>
+          <hr class="my-4" />
         </form>
       </div>
     </div>
-
     <!-- FOOTER -->
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
